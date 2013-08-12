@@ -1,0 +1,706 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BCM2708_PERI_BASE	wiringPi/wiringPi.c	183;"	d	file:
+BCM_PASSWORD	wiringPi/wiringPi.c	138;"	d	file:
+BINS	examples/Makefile	/^BINS	=	$(SRC:.c=)$/;"	m
+BLANK	examples/nes.c	32;"	d	file:
+BLOCK_SIZE	wiringPi/wiringPi.c	192;"	d	file:
+BUTTON_PIN	examples/isr.c	44;"	d	file:
+BUTTON_PIN	examples/wfi.c	47;"	d	file:
+B_SIZE	examples/gertboard.c	36;"	d	file:
+CB_BOARD	wiringPi/wiringPi.c	76;"	d	file:
+CB_PIN_MASK	wiringPi/wiringPi.c	/^static int CB_PIN_MASK[9][32] =  \/\/[BANK]  [INDEX]$/;"	v	file:
+CB_PIN_MASK_BAK	wiringPi/wiringPi.c	/^static int CB_PIN_MASK_BAK[9][32] =  \/\/[BANK]  [INDEX]$/;"	v	file:
+CC	examples/Makefile	/^CC	= gcc$/;"	m
+CC	gpio/Makefile	/^CC	= gcc$/;"	m
+CC	wiringPi/Makefile	/^CC	= gcc$/;"	m
+CFLAGS	examples/Makefile	/^CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe$/;"	m
+CFLAGS	gpio/Makefile	/^CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe$/;"	m
+CFLAGS	wiringPi/Makefile	/^CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe -fPIC$/;"	m
+CHECK	wiringPi/wiringPi.h	44;"	d
+CLOCK_BASE	wiringPi/wiringPi.c	176;"	d	file:
+CLOCK_BASE	wiringPi/wiringPi.c	185;"	d	file:
+CMD_READ	wiringPi/mcp23x08.h	73;"	d
+CMD_READ	wiringPi/mcp23x0817.h	87;"	d
+CMD_WRITE	wiringPi/mcp23x08.h	72;"	d
+CMD_WRITE	wiringPi/mcp23x0817.h	86;"	d
+COUNT_KEY	examples/wfi.c	43;"	d	file:
+CYCLES	examples/delayTest.c	32;"	d	file:
+D0	wiringPi/wiringPi.h	/^unsigned char D0;$/;"	m	struct:__anon1
+D0	wiringPi/wiringPi.h	/^unsigned char D0;$/;"	m	struct:__anon2
+D1	wiringPi/wiringPi.h	/^unsigned char D1;$/;"	m	struct:__anon1
+D1	wiringPi/wiringPi.h	/^unsigned char D1;$/;"	m	struct:__anon2
+D10	wiringPi/wiringPi.h	/^unsigned char D10;$/;"	m	struct:__anon2
+D11	wiringPi/wiringPi.h	/^unsigned char D11;$/;"	m	struct:__anon2
+D12	wiringPi/wiringPi.h	/^unsigned char D12;$/;"	m	struct:__anon2
+D13	wiringPi/wiringPi.h	/^unsigned char D13;$/;"	m	struct:__anon2
+D14	wiringPi/wiringPi.h	/^unsigned char D14;$/;"	m	struct:__anon2
+D15	wiringPi/wiringPi.h	/^unsigned char D15;$/;"	m	struct:__anon2
+D2	wiringPi/wiringPi.h	/^unsigned char D2;$/;"	m	struct:__anon1
+D2	wiringPi/wiringPi.h	/^unsigned char D2;$/;"	m	struct:__anon2
+D3	wiringPi/wiringPi.h	/^unsigned char D3;$/;"	m	struct:__anon1
+D3	wiringPi/wiringPi.h	/^unsigned char D3;$/;"	m	struct:__anon2
+D4	wiringPi/wiringPi.h	/^unsigned char D4;$/;"	m	struct:__anon1
+D4	wiringPi/wiringPi.h	/^unsigned char D4;$/;"	m	struct:__anon2
+D5	wiringPi/wiringPi.h	/^unsigned char D5;$/;"	m	struct:__anon1
+D5	wiringPi/wiringPi.h	/^unsigned char D5;$/;"	m	struct:__anon2
+D6	wiringPi/wiringPi.h	/^unsigned char D6;$/;"	m	struct:__anon1
+D6	wiringPi/wiringPi.h	/^unsigned char D6;$/;"	m	struct:__anon2
+D7	wiringPi/wiringPi.h	/^unsigned char D7;$/;"	m	struct:__anon1
+D7	wiringPi/wiringPi.h	/^unsigned char D7;$/;"	m	struct:__anon2
+D8	wiringPi/wiringPi.h	/^unsigned char D8;$/;"	m	struct:__anon2
+D9	wiringPi/wiringPi.h	/^unsigned char D9;$/;"	m	struct:__anon2
+DEBOUNCE_TIME	examples/wfi.c	51;"	d	file:
+DEBUG	examples/Makefile	/^DEBUG	= -O3$/;"	m
+DEBUG	gpio/Makefile	/^DEBUG	= -O2$/;"	m
+DEBUG	wiringPi/Makefile	/^DEBUG	= -O2$/;"	m
+DEFVALA	wiringPi/mcp23x08.h	34;"	d
+DEFVALB	wiringPi/mcp23x08.h	46;"	d
+DESTDIR	wiringPi/Makefile	/^DESTDIR=\/usr$/;"	m
+DO_TIMING	examples/gertboard.c	37;"	d	file:
+DYNAMIC	wiringPi/Makefile	/^DYNAMIC=libwiringIO.so.$(VERSION)$/;"	m
+DYN_VERS_MAJ	wiringPi/Makefile	/^DYN_VERS_MAJ=2$/;"	m
+DYN_VERS_MIN	wiringPi/Makefile	/^DYN_VERS_MIN=0$/;"	m
+ENV_CODES	wiringPi/wiringPi.c	120;"	d	file:
+ENV_DEBUG	wiringPi/wiringPi.c	119;"	d	file:
+FALSE	gpio/gpio.c	50;"	d	file:
+FALSE	wiringPi/wiringPi.c	81;"	d	file:
+FAST_COUNT	examples/speed.c	32;"	d	file:
+FSEL_ALT0	wiringPi/wiringPi.c	163;"	d	file:
+FSEL_ALT0	wiringPi/wiringPi.c	164;"	d	file:
+FSEL_ALT1	wiringPi/wiringPi.c	165;"	d	file:
+FSEL_ALT2	wiringPi/wiringPi.c	166;"	d	file:
+FSEL_ALT3	wiringPi/wiringPi.c	167;"	d	file:
+FSEL_ALT4	wiringPi/wiringPi.c	168;"	d	file:
+FSEL_ALT5	wiringPi/wiringPi.c	169;"	d	file:
+FSEL_INPT	wiringPi/wiringPi.c	161;"	d	file:
+FSEL_OUTP	wiringPi/wiringPi.c	162;"	d	file:
+GPINTENA	wiringPi/mcp23x08.h	33;"	d
+GPINTENB	wiringPi/mcp23x08.h	45;"	d
+GPIOA	wiringPi/mcp23x08.h	40;"	d
+GPIOB	wiringPi/mcp23x08.h	52;"	d
+GPIO_BASE	wiringPi/wiringPi.c	179;"	d	file:
+GPIO_BASE	wiringPi/wiringPi.c	186;"	d	file:
+GPIO_CLOCK	wiringPi/wiringPi.h	45;"	d
+GPIO_CLOCK_SOURCE	wiringPi/wiringPi.c	396;"	d	file:
+GPIO_PADS	wiringPi/wiringPi.c	175;"	d	file:
+GPIO_PADS	wiringPi/wiringPi.c	184;"	d	file:
+GPIO_PWM	wiringPi/wiringPi.c	181;"	d	file:
+GPIO_PWM	wiringPi/wiringPi.c	188;"	d	file:
+GPIO_TIMER	wiringPi/wiringPi.c	180;"	d	file:
+GPIO_TIMER	wiringPi/wiringPi.c	187;"	d	file:
+GPPUA	wiringPi/mcp23x08.h	37;"	d
+GPPUB	wiringPi/mcp23x08.h	49;"	d
+GPPUD	wiringPi/wiringPi.c	379;"	d	file:
+HIGH	wiringPi/wiringPi.h	48;"	d
+I2C_SLAVE	wiringPi/wiringPiI2C.c	59;"	d	file:
+I2C_SMBUS	wiringPi/wiringPiI2C.c	60;"	d	file:
+I2C_SMBUS_BLOCK_DATA	wiringPi/wiringPiI2C.c	72;"	d	file:
+I2C_SMBUS_BLOCK_MAX	wiringPi/wiringPiI2C.c	79;"	d	file:
+I2C_SMBUS_BLOCK_PROC_CALL	wiringPi/wiringPiI2C.c	74;"	d	file:
+I2C_SMBUS_BYTE	wiringPi/wiringPiI2C.c	68;"	d	file:
+I2C_SMBUS_BYTE_DATA	wiringPi/wiringPiI2C.c	69;"	d	file:
+I2C_SMBUS_I2C_BLOCK_BROKEN	wiringPi/wiringPiI2C.c	73;"	d	file:
+I2C_SMBUS_I2C_BLOCK_DATA	wiringPi/wiringPiI2C.c	75;"	d	file:
+I2C_SMBUS_I2C_BLOCK_MAX	wiringPi/wiringPiI2C.c	80;"	d	file:
+I2C_SMBUS_PROC_CALL	wiringPi/wiringPiI2C.c	71;"	d	file:
+I2C_SMBUS_QUICK	wiringPi/wiringPiI2C.c	67;"	d	file:
+I2C_SMBUS_READ	wiringPi/wiringPiI2C.c	62;"	d	file:
+I2C_SMBUS_WORD_DATA	wiringPi/wiringPiI2C.c	70;"	d	file:
+I2C_SMBUS_WRITE	wiringPi/wiringPiI2C.c	63;"	d	file:
+INCLUDE	examples/Makefile	/^INCLUDE	= -I\/usr\/local\/include$/;"	m
+INCLUDE	gpio/Makefile	/^INCLUDE	= -I\/usr\/local\/include$/;"	m
+INCLUDE	wiringPi/Makefile	/^INCLUDE	= -I.$/;"	m
+INPUT	wiringPi/wiringPi.h	38;"	d
+INTCAPA	wiringPi/mcp23x08.h	39;"	d
+INTCAPB	wiringPi/mcp23x08.h	51;"	d
+INTCONA	wiringPi/mcp23x08.h	35;"	d
+INTCONB	wiringPi/mcp23x08.h	47;"	d
+INTFA	wiringPi/mcp23x08.h	38;"	d
+INTFB	wiringPi/mcp23x08.h	50;"	d
+INT_EDGE_BOTH	wiringPi/wiringPi.h	66;"	d
+INT_EDGE_FALLING	wiringPi/wiringPi.h	64;"	d
+INT_EDGE_RISING	wiringPi/wiringPi.h	65;"	d
+INT_EDGE_SETUP	wiringPi/wiringPi.h	63;"	d
+IN_PIN	examples/isr-osc.c	57;"	d	file:
+IOCON	wiringPi/mcp23x08.h	36;"	d
+IOCONB	wiringPi/mcp23x08.h	48;"	d
+IOCON_BANK_MODE	wiringPi/mcp23x08.h	64;"	d
+IOCON_BANK_MODE	wiringPi/mcp23x0817.h	78;"	d
+IOCON_DISSLW	wiringPi/mcp23x08.h	61;"	d
+IOCON_DISSLW	wiringPi/mcp23x0817.h	75;"	d
+IOCON_HAEN	wiringPi/mcp23x08.h	60;"	d
+IOCON_HAEN	wiringPi/mcp23x0817.h	74;"	d
+IOCON_INIT	wiringPi/mcp23x08.h	68;"	d
+IOCON_INIT	wiringPi/mcp23x0817.h	82;"	d
+IOCON_INTPOL	wiringPi/mcp23x08.h	58;"	d
+IOCON_INTPOL	wiringPi/mcp23x0817.h	72;"	d
+IOCON_MIRROR	wiringPi/mcp23x08.h	63;"	d
+IOCON_MIRROR	wiringPi/mcp23x0817.h	77;"	d
+IOCON_ODR	wiringPi/mcp23x08.h	59;"	d
+IOCON_ODR	wiringPi/mcp23x0817.h	73;"	d
+IOCON_SEQOP	wiringPi/mcp23x08.h	62;"	d
+IOCON_SEQOP	wiringPi/mcp23x0817.h	76;"	d
+IOCON_UNUSED	wiringPi/mcp23x08.h	57;"	d
+IOCON_UNUSED	wiringPi/mcp23x0817.h	71;"	d
+IODIRA	wiringPi/mcp23x08.h	31;"	d
+IODIRB	wiringPi/mcp23x08.h	43;"	d
+IO_GPIO_TO_PIN	wiringPi/wiringPi.c	/^static int IO_GPIO_TO_PIN[9][32] =  \/\/[BANK]  [INDEX]$/;"	v	file:
+IPOLA	wiringPi/mcp23x08.h	32;"	d
+IPOLB	wiringPi/mcp23x08.h	44;"	d
+LCD_CDSHIFT	wiringPi/lcd.c	41;"	d	file:
+LCD_CDSHIFT_RL	wiringPi/lcd.c	57;"	d	file:
+LCD_CGRAM	wiringPi/lcd.c	43;"	d	file:
+LCD_CLEAR	wiringPi/lcd.c	37;"	d	file:
+LCD_DGRAM	wiringPi/lcd.c	44;"	d	file:
+LCD_ENTRY	wiringPi/lcd.c	39;"	d	file:
+LCD_ENTRY_ID	wiringPi/lcd.c	47;"	d	file:
+LCD_ENTRY_SH	wiringPi/lcd.c	46;"	d	file:
+LCD_FUNC	wiringPi/lcd.c	42;"	d	file:
+LCD_FUNC_DL	wiringPi/lcd.c	55;"	d	file:
+LCD_FUNC_F	wiringPi/lcd.c	53;"	d	file:
+LCD_FUNC_N	wiringPi/lcd.c	54;"	d	file:
+LCD_HOME	wiringPi/lcd.c	38;"	d	file:
+LCD_ON_OFF	wiringPi/lcd.c	40;"	d	file:
+LCD_ON_OFF_B	wiringPi/lcd.c	49;"	d	file:
+LCD_ON_OFF_C	wiringPi/lcd.c	50;"	d	file:
+LCD_ON_OFF_D	wiringPi/lcd.c	51;"	d	file:
+LDFLAGS	examples/Makefile	/^LDFLAGS	= -L\/usr\/local\/lib$/;"	m
+LDFLAGS	gpio/Makefile	/^LDFLAGS	= -L\/usr\/local\/lib$/;"	m
+LDLIBS	examples/Makefile	/^LDLIBS    = -lwiringPi -lpthread -lm$/;"	m
+LED	examples/blink.c	31;"	d	file:
+LIBS	gpio/Makefile	/^LIBS    = -lwiringPi -lpthread -lm$/;"	m
+LIBS	wiringPi/Makefile	/^LIBS    =$/;"	m
+LOW	wiringPi/wiringPi.h	47;"	d
+LSBFIRST	wiringPi/wiringShift.h	25;"	d
+MAP_MASK	wiringPi/wiringPi.c	86;"	d	file:
+MAP_SIZE	wiringPi/wiringPi.c	85;"	d	file:
+MAX_LCDS	wiringPi/lcd.h	27;"	d
+MAX_NES_JOYSTICKS	wiringPi/piNes.c	29;"	d	file:
+MAX_NES_JOYSTICKS	wiringPi/piNes.h	25;"	d
+MAX_PINS	wiringPi/softPwm.c	31;"	d	file:
+MAX_PINS	wiringPi/softTone.c	35;"	d	file:
+MAX_PIN_NUM	wiringPi/wiringPi.c	127;"	d	file:
+MAX_PIN_NUM	wiringPi/wiringPi.c	131;"	d	file:
+MAX_SERVOS	wiringPi/softServo.c	67;"	d	file:
+MCP23x08_DEFVAL	wiringPi/mcp23x0817.h	34;"	d
+MCP23x08_GPINTEN	wiringPi/mcp23x0817.h	33;"	d
+MCP23x08_GPIO	wiringPi/mcp23x0817.h	40;"	d
+MCP23x08_GPPU	wiringPi/mcp23x0817.h	37;"	d
+MCP23x08_INTCAP	wiringPi/mcp23x0817.h	39;"	d
+MCP23x08_INTCON	wiringPi/mcp23x0817.h	35;"	d
+MCP23x08_INTF	wiringPi/mcp23x0817.h	38;"	d
+MCP23x08_IOCON	wiringPi/mcp23x0817.h	36;"	d
+MCP23x08_IODIR	wiringPi/mcp23x0817.h	31;"	d
+MCP23x08_IPOL	wiringPi/mcp23x0817.h	32;"	d
+MCP23x08_OLAT	wiringPi/mcp23x0817.h	41;"	d
+MCP23x17_DEFVALA	wiringPi/mcp23x0817.h	48;"	d
+MCP23x17_DEFVALB	wiringPi/mcp23x0817.h	60;"	d
+MCP23x17_GPINTENA	wiringPi/mcp23x0817.h	47;"	d
+MCP23x17_GPINTENB	wiringPi/mcp23x0817.h	59;"	d
+MCP23x17_GPIOA	wiringPi/mcp23x0817.h	54;"	d
+MCP23x17_GPIOB	wiringPi/mcp23x0817.h	66;"	d
+MCP23x17_GPPUA	wiringPi/mcp23x0817.h	51;"	d
+MCP23x17_GPPUB	wiringPi/mcp23x0817.h	63;"	d
+MCP23x17_INTCAPA	wiringPi/mcp23x0817.h	53;"	d
+MCP23x17_INTCAPB	wiringPi/mcp23x0817.h	65;"	d
+MCP23x17_INTCONA	wiringPi/mcp23x0817.h	49;"	d
+MCP23x17_INTCONB	wiringPi/mcp23x0817.h	61;"	d
+MCP23x17_INTFA	wiringPi/mcp23x0817.h	52;"	d
+MCP23x17_INTFB	wiringPi/mcp23x0817.h	64;"	d
+MCP23x17_IOCON	wiringPi/mcp23x0817.h	50;"	d
+MCP23x17_IOCONB	wiringPi/mcp23x0817.h	62;"	d
+MCP23x17_IODIRA	wiringPi/mcp23x0817.h	45;"	d
+MCP23x17_IODIRB	wiringPi/mcp23x0817.h	57;"	d
+MCP23x17_IPOLA	wiringPi/mcp23x0817.h	46;"	d
+MCP23x17_IPOLB	wiringPi/mcp23x0817.h	58;"	d
+MCP23x17_OLATA	wiringPi/mcp23x0817.h	55;"	d
+MCP23x17_OLATB	wiringPi/mcp23x0817.h	67;"	d
+MCP_SPEED	wiringPi/mcp23s08.c	34;"	d	file:
+MCP_SPEED	wiringPi/mcp23s17.c	34;"	d	file:
+MSBFIRST	wiringPi/wiringShift.h	26;"	d
+NES_A	wiringPi/piNes.c	38;"	d	file:
+NES_A	wiringPi/piNes.h	34;"	d
+NES_B	wiringPi/piNes.c	37;"	d	file:
+NES_B	wiringPi/piNes.h	33;"	d
+NES_DOWN	wiringPi/piNes.c	33;"	d	file:
+NES_DOWN	wiringPi/piNes.h	29;"	d
+NES_LEFT	wiringPi/piNes.c	32;"	d	file:
+NES_LEFT	wiringPi/piNes.h	28;"	d
+NES_RIGHT	wiringPi/piNes.c	31;"	d	file:
+NES_RIGHT	wiringPi/piNes.h	27;"	d
+NES_SELECT	wiringPi/piNes.c	36;"	d	file:
+NES_SELECT	wiringPi/piNes.h	32;"	d
+NES_START	wiringPi/piNes.c	35;"	d	file:
+NES_START	wiringPi/piNes.h	31;"	d
+NES_UP	wiringPi/piNes.c	34;"	d	file:
+NES_UP	wiringPi/piNes.h	30;"	d
+NUM_LEDS	examples/pwm.c	34;"	d	file:
+NUM_PINS	wiringPi/wiringPi.h	27;"	d
+OBJ	examples/Makefile	/^OBJ	=	$(SRC:.c=.o)$/;"	m
+OBJ	gpio/Makefile	/^OBJ	=	$(SRC:.c=.o)$/;"	m
+OBJ	wiringPi/Makefile	/^OBJ	=	$(SRC:.c=.o)$/;"	m
+OK_LED	examples/okLed.c	42;"	d	file:
+OLATA	wiringPi/mcp23x08.h	41;"	d
+OLATB	wiringPi/mcp23x08.h	53;"	d
+OUTPUT	wiringPi/wiringPi.h	39;"	d
+OUT_PIN	examples/isr-osc.c	56;"	d	file:
+PAGE_SIZE	wiringPi/wiringPi.c	191;"	d	file:
+PIFACE_BASE	examples/piface.c	36;"	d	file:
+PIFACE_DEVNO	wiringPi/piFace.c	38;"	d	file:
+PIFACE_SPEED	wiringPi/piFace.c	37;"	d	file:
+PIN	examples/tone.c	33;"	d	file:
+PI_GPIO_MASK	wiringPi/wiringPi.c	126;"	d	file:
+PI_GPIO_MASK	wiringPi/wiringPi.c	130;"	d	file:
+PI_THREAD	examples/wfi.c	/^PI_THREAD (waitForIt)$/;"	f
+PI_THREAD	wiringPi/softPwm.c	/^static PI_THREAD (softPwmThread)$/;"	f	file:
+PI_THREAD	wiringPi/softServo.c	/^static PI_THREAD (softServoThread)$/;"	f	file:
+PI_THREAD	wiringPi/softTone.c	/^static PI_THREAD (softToneThread)$/;"	f	file:
+PI_THREAD	wiringPi/wiringPi.h	103;"	d
+PREFIX	wiringPi/Makefile	/^PREFIX=\/local$/;"	m
+PUD_DOWN	wiringPi/wiringPi.h	53;"	d
+PUD_OFF	wiringPi/wiringPi.h	52;"	d
+PUD_UP	wiringPi/wiringPi.h	54;"	d
+PULLDOWN	wiringPi/wiringPi.h	42;"	d
+PULLOFF	wiringPi/wiringPi.h	43;"	d
+PULLUP	wiringPi/wiringPi.h	41;"	d
+PULSE_TIME	wiringPi/piNes.c	41;"	d	file:
+PULSE_TIME	wiringPi/softPwm.c	47;"	d	file:
+PULSE_TIME	wiringPi/softTone.c	37;"	d	file:
+PWM0_DATA	wiringPi/wiringPi.c	199;"	d	file:
+PWM0_ENABLE	wiringPi/wiringPi.c	214;"	d	file:
+PWM0_MS_MODE	wiringPi/wiringPi.c	208;"	d	file:
+PWM0_OFFSTATE	wiringPi/wiringPi.c	211;"	d	file:
+PWM0_RANGE	wiringPi/wiringPi.c	198;"	d	file:
+PWM0_REPEATFF	wiringPi/wiringPi.c	212;"	d	file:
+PWM0_REVPOLAR	wiringPi/wiringPi.c	210;"	d	file:
+PWM0_SERIAL	wiringPi/wiringPi.c	213;"	d	file:
+PWM0_USEFIFO	wiringPi/wiringPi.c	209;"	d	file:
+PWM1_DATA	wiringPi/wiringPi.c	201;"	d	file:
+PWM1_ENABLE	wiringPi/wiringPi.c	222;"	d	file:
+PWM1_MS_MODE	wiringPi/wiringPi.c	216;"	d	file:
+PWM1_OFFSTATE	wiringPi/wiringPi.c	219;"	d	file:
+PWM1_RANGE	wiringPi/wiringPi.c	200;"	d	file:
+PWM1_REPEATFF	wiringPi/wiringPi.c	220;"	d	file:
+PWM1_REVPOLAR	wiringPi/wiringPi.c	218;"	d	file:
+PWM1_SERIAL	wiringPi/wiringPi.c	221;"	d	file:
+PWM1_USEFIFO	wiringPi/wiringPi.c	217;"	d	file:
+PWMCLK_CNTL	wiringPi/wiringPi.c	205;"	d	file:
+PWMCLK_DIV	wiringPi/wiringPi.c	206;"	d	file:
+PWM_CLK_DIV_120	wiringPi/wiringPi.c	106;"	d	file:
+PWM_CLK_DIV_12K	wiringPi/wiringPi.c	111;"	d	file:
+PWM_CLK_DIV_180	wiringPi/wiringPi.c	107;"	d	file:
+PWM_CLK_DIV_240	wiringPi/wiringPi.c	108;"	d	file:
+PWM_CLK_DIV_24K	wiringPi/wiringPi.c	112;"	d	file:
+PWM_CLK_DIV_360	wiringPi/wiringPi.c	109;"	d	file:
+PWM_CLK_DIV_36K	wiringPi/wiringPi.c	113;"	d	file:
+PWM_CLK_DIV_480	wiringPi/wiringPi.c	110;"	d	file:
+PWM_CLK_DIV_48K	wiringPi/wiringPi.c	114;"	d	file:
+PWM_CLK_DIV_72K	wiringPi/wiringPi.c	115;"	d	file:
+PWM_CONTROL	wiringPi/wiringPi.c	196;"	d	file:
+PWM_MODE_BAL	wiringPi/wiringPi.h	59;"	d
+PWM_MODE_MS	wiringPi/wiringPi.h	58;"	d
+PWM_OUTPUT	wiringPi/wiringPi.h	40;"	d
+PWM_STATUS	wiringPi/wiringPi.c	197;"	d	file:
+RANGE	examples/pwm.c	33;"	d	file:
+RTC_BM	examples/ds1302.c	45;"	d	file:
+RTC_BM	wiringPi/ds1302.c	44;"	d	file:
+RTC_DATE	examples/ds1302.c	39;"	d	file:
+RTC_DATE	wiringPi/ds1302.c	38;"	d	file:
+RTC_DAY	examples/ds1302.c	41;"	d	file:
+RTC_DAY	wiringPi/ds1302.c	40;"	d	file:
+RTC_HOURS	examples/ds1302.c	38;"	d	file:
+RTC_HOURS	wiringPi/ds1302.c	37;"	d	file:
+RTC_MINS	examples/ds1302.c	37;"	d	file:
+RTC_MINS	wiringPi/ds1302.c	36;"	d	file:
+RTC_MONTH	examples/ds1302.c	40;"	d	file:
+RTC_MONTH	wiringPi/ds1302.c	39;"	d	file:
+RTC_SECS	examples/ds1302.c	36;"	d	file:
+RTC_SECS	wiringPi/ds1302.c	35;"	d	file:
+RTC_TC	examples/ds1302.c	44;"	d	file:
+RTC_TC	wiringPi/ds1302.c	43;"	d	file:
+RTC_WP	examples/ds1302.c	43;"	d	file:
+RTC_WP	wiringPi/ds1302.c	42;"	d	file:
+RTC_YEAR	examples/ds1302.c	42;"	d	file:
+RTC_YEAR	wiringPi/ds1302.c	41;"	d	file:
+SLOW_COUNT	examples/speed.c	33;"	d	file:
+SPI_A2D	wiringPi/gertboard.c	50;"	d	file:
+SPI_ADC_SPEED	wiringPi/gertboard.c	48;"	d	file:
+SPI_D2A	wiringPi/gertboard.c	51;"	d	file:
+SPI_DAC_SPEED	wiringPi/gertboard.c	49;"	d	file:
+SRC	examples/Makefile	/^SRC	=	blink.c test1.c test2.c speed.c lcd.c wfi.c isr.c isr-osc.c	\\$/;"	m
+SRC	gpio/Makefile	/^SRC	=	gpio.c$/;"	m
+SRC	pins/Makefile	/^SRC	=	pins.tex$/;"	m
+SRC	wiringPi/Makefile	/^SRC	=	wiringPi.c						\\$/;"	m
+STATIC	wiringPi/Makefile	/^STATIC=libwiringIO.a$/;"	m
+STRUCT_16BITS_BUS	wiringPi/wiringPi.h	/^}STRUCT_16BITS_BUS;$/;"	t	typeref:struct:__anon2
+STRUCT_8BITS_BUS	wiringPi/wiringPi.h	/^}STRUCT_8BITS_BUS;$/;"	t	typeref:struct:__anon1
+SUNXI_GPIO_BASE	wiringPi/wiringPi.c	84;"	d	file:
+SUNXI_PWM_BASE	wiringPi/wiringPi.c	88;"	d	file:
+SUNXI_PWM_CH0_ACT_STA	wiringPi/wiringPi.c	94;"	d	file:
+SUNXI_PWM_CH0_EN	wiringPi/wiringPi.c	93;"	d	file:
+SUNXI_PWM_CH0_MS_MODE	wiringPi/wiringPi.c	96;"	d	file:
+SUNXI_PWM_CH0_PERIOD	wiringPi/wiringPi.c	90;"	d	file:
+SUNXI_PWM_CH0_PUL_START	wiringPi/wiringPi.c	97;"	d	file:
+SUNXI_PWM_CH1_ACT_STA	wiringPi/wiringPi.c	100;"	d	file:
+SUNXI_PWM_CH1_EN	wiringPi/wiringPi.c	99;"	d	file:
+SUNXI_PWM_CH1_MS_MODE	wiringPi/wiringPi.c	102;"	d	file:
+SUNXI_PWM_CH1_PERIOD	wiringPi/wiringPi.c	91;"	d	file:
+SUNXI_PWM_CH1_PUL_START	wiringPi/wiringPi.c	103;"	d	file:
+SUNXI_PWM_CTRL_REG	wiringPi/wiringPi.c	89;"	d	file:
+SUNXI_PWM_SCLK_CH0_GATING	wiringPi/wiringPi.c	95;"	d	file:
+SUNXI_PWM_SCLK_CH1_GATING	wiringPi/wiringPi.c	101;"	d	file:
+SerialAvailable	wiringPi/wiringSerial.c	/^int SerialAvailable (int fd)$/;"	f
+SerialBegin	wiringPi/wiringSerial.c	/^int SerialBegin (int ppp, int baud)$/;"	f
+SerialEnd	wiringPi/wiringSerial.c	/^int SerialEnd (int fd)$/;"	f
+SerialFlush	wiringPi/wiringSerial.c	/^int SerialFlush (int fd)$/;"	f
+SerialPrint	wiringPi/wiringSerial.c	/^int SerialPrint (int fd, char *s)$/;"	f
+SerialPrintln	wiringPi/wiringSerial.c	/^int SerialPrintln (int fd, char *s)$/;"	f
+SerialRead	wiringPi/wiringSerial.c	/^int SerialRead (int fd)$/;"	f
+SerialWrite	wiringPi/wiringSerial.c	/^int SerialWrite (int fd, unsigned char c)$/;"	f
+Set16BitsBUS	wiringPi/wiringPi.c	/^int Set16BitsBUS(STRUCT_16BITS_BUS *bus,char d0,char d1,char d2,char d3,char d4,char d5,char d6,char d7,char d8,char d9,char d10,char d11,char d12,char d13,char d14,char d15,char mode)$/;"	f
+Set8BitsBUS	wiringPi/wiringPi.c	/^int Set8BitsBUS(STRUCT_8BITS_BUS *bus,char d0,char d1,char d2,char d3,char d4,char d5,char d6,char d7,char mode)$/;"	f
+TIMER_CONTROL	wiringPi/wiringPi.c	229;"	d	file:
+TIMER_COUNTER	wiringPi/wiringPi.c	235;"	d	file:
+TIMER_IRQ_CLR	wiringPi/wiringPi.c	230;"	d	file:
+TIMER_IRQ_MASK	wiringPi/wiringPi.c	232;"	d	file:
+TIMER_IRQ_RAW	wiringPi/wiringPi.c	231;"	d	file:
+TIMER_LOAD	wiringPi/wiringPi.c	227;"	d	file:
+TIMER_PRE_DIV	wiringPi/wiringPi.c	234;"	d	file:
+TIMER_RELOAD	wiringPi/wiringPi.c	233;"	d	file:
+TIMER_VALUE	wiringPi/wiringPi.c	228;"	d	file:
+TRUE	gpio/gpio.c	49;"	d	file:
+TRUE	wiringPi/wiringPi.c	80;"	d	file:
+UART0	wiringPi/wiringSerial.h	23;"	d
+UART1	wiringPi/wiringSerial.h	24;"	d
+UART2	wiringPi/wiringSerial.h	25;"	d
+UART3	wiringPi/wiringSerial.h	26;"	d
+UART4	wiringPi/wiringSerial.h	27;"	d
+VERSION	gpio/gpio.c	53;"	d	file:
+VERSION	wiringPi/Makefile	/^VERSION=$(DYN_VERS_MAJ).$(DYN_VERS_MIN)$/;"	m
+WPI_MODE_GPIO	wiringPi/wiringPi.h	30;"	d
+WPI_MODE_GPIO_SYS	wiringPi/wiringPi.h	31;"	d
+WPI_MODE_PHYS	wiringPi/wiringPi.h	32;"	d
+WPI_MODE_PIFACE	wiringPi/wiringPi.h	33;"	d
+WPI_MODE_PINS	wiringPi/wiringPi.h	29;"	d
+WPI_MODE_UNINITIALISED	wiringPi/wiringPi.h	34;"	d
+_doLoadUsage	gpio/gpio.c	/^static void _doLoadUsage (char *argv [])$/;"	f	file:
+alts	gpio/gpio.c	/^static char *alts [] =$/;"	v	file:
+analogRead	wiringPi/wiringPi.c	/^int analogRead (int pin)$/;"	f
+analogRead	wiringPi/wiringPi.h	/^  int    (*analogRead)      (struct wiringPiNodeStruct *node, int pin) ;$/;"	m	struct:wiringPiNodeStruct
+analogReadDummy	wiringPi/wiringPi.c	/^static int  analogReadDummy          (struct wiringPiNodeStruct *node, int pin)            { return 0 ; }$/;"	f	file:
+analogWrite	wiringPi/wiringPi.c	/^int analogWrite (int pin, int value)$/;"	f
+analogWrite	wiringPi/wiringPi.h	/^  int   (*analogWrite)     (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct
+analogWriteDummy	wiringPi/wiringPi.c	/^static void analogWriteDummy         (struct wiringPiNodeStruct *node, int pin, int value) { return ; }$/;"	f	file:
+bcdToD	examples/ds1302.c	/^static int bcdToD (unsigned int byte, unsigned int mask)$/;"	f	file:
+bits	wiringPi/lcd.c	/^  uint8_t bits, rows, cols ;$/;"	m	struct:lcdDataStruct	file:
+block	wiringPi/wiringPiI2C.c	/^  uint8_t  block [I2C_SMBUS_BLOCK_MAX + 2] ;	\/\/ block [0] is used for length + one more for PEC$/;"	m	union:i2c_smbus_data	file:
+byte	wiringPi/wiringPiI2C.c	/^  uint8_t  byte ;$/;"	m	union:i2c_smbus_data	file:
+cPin	wiringPi/ds1302.c	/^static int dPin, cPin, sPin ;$/;"	v	file:
+cPin	wiringPi/piNes.c	/^  unsigned int cPin, dPin, lPin ;$/;"	m	struct:nesPinsStruct	file:
+changeOwner	gpio/gpio.c	/^static void changeOwner (char *cmd, char *file)$/;"	f	file:
+clk	wiringPi/wiringPi.c	/^static volatile uint32_t *clk ;$/;"	v	file:
+cols	wiringPi/lcd.c	/^  uint8_t bits, rows, cols ;$/;"	m	struct:lcdDataStruct	file:
+command	wiringPi/wiringPiI2C.c	/^  uint8_t command ;$/;"	m	struct:i2c_smbus_ioctl_data	file:
+dPin	wiringPi/ds1302.c	/^static int dPin, cPin, sPin ;$/;"	v	file:
+dPin	wiringPi/piNes.c	/^  unsigned int cPin, dPin, lPin ;$/;"	m	struct:nesPinsStruct	file:
+dToBcd	examples/ds1302.c	/^static unsigned int dToBcd (unsigned int byte)$/;"	f	file:
+data	examples/test1.c	/^uint8_t data [] =$/;"	v
+data	wiringPi/wiringPiI2C.c	/^  union i2c_smbus_data *data ;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_ioctl_data::i2c_smbus_data	file:
+data0	wiringPi/wiringPi.h	/^  unsigned int data0 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct
+data1	wiringPi/wiringPi.h	/^  unsigned int data1 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct
+data2	wiringPi/wiringPi.h	/^  unsigned int data2 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct
+data3	wiringPi/wiringPi.h	/^  unsigned int data3 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct
+dataPins	wiringPi/lcd.c	/^  uint8_t dataPins [8] ;$/;"	m	struct:lcdDataStruct	file:
+delay	wiringPi/wiringPi.c	/^void delay (unsigned int howLong)$/;"	f
+delayMicroseconds	wiringPi/wiringPi.c	/^void delayMicroseconds (unsigned int howLong)$/;"	f
+delayMicrosecondsHard	wiringPi/wiringPi.c	/^void delayMicrosecondsHard (unsigned int howLong)$/;"	f
+digitalRead	wiringPi/wiringPi.c	/^int digitalRead (int pin)$/;"	f
+digitalRead	wiringPi/wiringPi.h	/^  int    (*digitalRead)     (struct wiringPiNodeStruct *node, int pin) ;$/;"	m	struct:wiringPiNodeStruct
+digitalRead16	wiringPi/wiringPi.c	/^unsigned short int digitalRead16(STRUCT_16BITS_BUS *bus)$/;"	f
+digitalRead8	wiringPi/wiringPi.c	/^unsigned char digitalRead8(STRUCT_8BITS_BUS *bus)$/;"	f
+digitalReadDummy	wiringPi/wiringPi.c	/^static int  digitalReadDummy         (struct wiringPiNodeStruct *node, int pin)            { return LOW ; }$/;"	f	file:
+digitalReadPiFace	wiringPi/piFace.c	/^int digitalReadPiFace (struct wiringPiNodeStruct *node, int pin)$/;"	f
+digitalWrite	wiringPi/wiringPi.c	/^int digitalWrite (int pin, int value)$/;"	f
+digitalWrite	wiringPi/wiringPi.h	/^  int    (*digitalWrite)    (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct
+digitalWrite16	wiringPi/wiringPi.c	/^int digitalWrite16(STRUCT_16BITS_BUS *bus,short int data)$/;"	f
+digitalWrite8	wiringPi/wiringPi.c	/^int digitalWrite8(STRUCT_8BITS_BUS *bus,char data)$/;"	f
+digitalWriteByte	wiringPi/wiringPi.c	/^void digitalWriteByte (int value)$/;"	f
+digitalWriteDummy	wiringPi/wiringPi.c	/^static void digitalWriteDummy        (struct wiringPiNodeStruct *node, int pin, int value) { return ; }$/;"	f	file:
+digitalWritePiFace	wiringPi/piFace.c	/^void digitalWritePiFace (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f
+doAread	gpio/gpio.c	/^void doAread (int argc, char *argv []) $/;"	f
+doAwrite	gpio/gpio.c	/^static void doAwrite (int argc, char *argv [])$/;"	f	file:
+doClock	gpio/gpio.c	/^void doClock (int argc, char *argv [])$/;"	f
+doEdge	gpio/gpio.c	/^void doEdge (int argc, char *argv [])$/;"	f
+doExport	gpio/gpio.c	/^void doExport (int argc, char *argv [])$/;"	f
+doExports	gpio/gpio.c	/^static void doExports (int argc, char *argv [])$/;"	f	file:
+doGbr	gpio/gpio.c	/^static void doGbr (int argc, char *argv [])$/;"	f	file:
+doGbw	gpio/gpio.c	/^static void doGbw (int argc, char *argv [])$/;"	f	file:
+doLoad	gpio/gpio.c	/^static void doLoad (int argc, char *argv [])$/;"	f	file:
+doMode	gpio/gpio.c	/^void doMode (int argc, char *argv [])$/;"	f
+doModule	gpio/gpio.c	/^static int doModule (char *progName, char *moduleData)$/;"	f	file:
+doModuleMcp23008	gpio/gpio.c	/^static int doModuleMcp23008 (char *progName, int pinBase, char *params)$/;"	f	file:
+doModuleMcp23017	gpio/gpio.c	/^static int doModuleMcp23017 (char *progName, int pinBase, char *params)$/;"	f	file:
+doModuleMcp23s08	gpio/gpio.c	/^static int doModuleMcp23s08 (char *progName, int pinBase, char *params)$/;"	f	file:
+doModuleMcp23s17	gpio/gpio.c	/^static int doModuleMcp23s17 (char *progName, int pinBase, char *params)$/;"	f	file:
+doPadDrive	gpio/gpio.c	/^static void doPadDrive (int argc, char *argv [])$/;"	f	file:
+doPwm	gpio/gpio.c	/^void doPwm (int argc, char *argv [])$/;"	f
+doPwmClock	gpio/gpio.c	/^static void doPwmClock (int argc, char *argv [])$/;"	f	file:
+doPwmMode	gpio/gpio.c	/^static void doPwmMode (int mode)$/;"	f	file:
+doPwmRange	gpio/gpio.c	/^static void doPwmRange (int argc, char *argv [])$/;"	f	file:
+doRead	gpio/gpio.c	/^void doRead (int argc, char *argv []) $/;"	f
+doReadall	gpio/gpio.c	/^static void doReadall (void)$/;"	f	file:
+doReset	gpio/gpio.c	/^static void doReset (char *progName)$/;"	f	file:
+doUnexport	gpio/gpio.c	/^void doUnexport (int argc, char *argv [])$/;"	f
+doUnexportall	gpio/gpio.c	/^void doUnexportall (char *progName)$/;"	f
+doWrite	gpio/gpio.c	/^static void doWrite (int argc, char *argv [])$/;"	f	file:
+doWriteByte	gpio/gpio.c	/^static void doWriteByte (int argc, char *argv [])$/;"	f	file:
+ds1302clockRead	wiringPi/ds1302.c	/^void ds1302clockRead (int clockData [8])$/;"	f
+ds1302clockWrite	wiringPi/ds1302.c	/^void ds1302clockWrite (int clockData [8])$/;"	f
+ds1302ramRead	wiringPi/ds1302.c	/^unsigned int ds1302ramRead (int addr)$/;"	f
+ds1302ramWrite	wiringPi/ds1302.c	/^void ds1302ramWrite (int addr, unsigned int data)$/;"	f
+ds1302regRead	wiringPi/ds1302.c	/^static unsigned int ds1302regRead (int reg)$/;"	f	file:
+ds1302regWrite	wiringPi/ds1302.c	/^static void ds1302regWrite (int reg, unsigned int data)$/;"	f	file:
+ds1302rtcRead	wiringPi/ds1302.c	/^unsigned int ds1302rtcRead (int reg)$/;"	f
+ds1302rtcWrite	wiringPi/ds1302.c	/^void ds1302rtcWrite (int reg, unsigned int data)$/;"	f
+ds1302setup	wiringPi/ds1302.c	/^void ds1302setup (int clockPin, int dataPin, int csPin)$/;"	f
+ds1302trickleCharge	wiringPi/ds1302.c	/^void ds1302trickleCharge (int diodes, int resistors)$/;"	f
+dsShiftIn	wiringPi/ds1302.c	/^unsigned int dsShiftIn (void)$/;"	f
+dsShiftOut	wiringPi/ds1302.c	/^void dsShiftOut (unsigned int data)$/;"	f
+epochMicro	wiringPi/wiringPi.c	/^static uint64_t epochMilli, epochMicro ;$/;"	v	file:
+epochMilli	wiringPi/wiringPi.c	/^static uint64_t epochMilli, epochMicro ;$/;"	v	file:
+fd	wiringPi/wiringPi.h	/^  int          fd ;	\/\/ Node specific$/;"	m	struct:wiringPiNodeStruct
+freqs	wiringPi/softTone.c	/^static int freqs [MAX_PINS] ;$/;"	v	file:
+function	gpio/gpio.c	/^  int	(*function)(char *progName, int pinBase, char *params) ;$/;"	m	struct:moduleFunctionStruct	file:
+gFdArray	wiringPi/wiringSerial.c	/^int gFdArray[6]={};$/;"	v
+gbWiringPiAnalogRead	wiringPi/gertboard.c	/^int gbWiringPiAnalogRead (struct wiringPiNodeStruct *node, int chan)$/;"	f
+gbWiringPiAnalogWrite	wiringPi/gertboard.c	/^void gbWiringPiAnalogWrite (struct wiringPiNodeStruct *node, int chan, int value)$/;"	f
+gertboardAnalogRead	wiringPi/gertboard.c	/^int gertboardAnalogRead (int chan)$/;"	f
+gertboardAnalogSetup	wiringPi/gertboard.c	/^int gertboardAnalogSetup (int pinBase)$/;"	f
+gertboardAnalogWrite	wiringPi/gertboard.c	/^void gertboardAnalogWrite (int chan, int value)$/;"	f
+gertboardSPISetup	wiringPi/gertboard.c	/^int gertboardSPISetup (void)$/;"	f
+getAlt	wiringPi/wiringPi.c	/^int getAlt (int pin)$/;"	f
+globalCounter	examples/isr-osc.c	/^static volatile int globalCounter = 0 ;$/;"	v	file:
+globalCounter	examples/isr.c	/^static volatile int globalCounter = 0 ;$/;"	v	file:
+globalCounter	examples/wfi.c	/^static volatile int globalCounter = 0 ;$/;"	v	file:
+gpio	wiringPi/wiringPi.c	/^static volatile uint32_t *gpio ;$/;"	v	file:
+gpioClockSet	wiringPi/wiringPi.c	/^void gpioClockSet (int pin, int freq)$/;"	f
+gpioToCfg_CB	wiringPi/wiringPi.c	/^unsigned int  gpioToCfg_CB [] =$/;"	v
+gpioToClkCon	wiringPi/wiringPi.c	/^static uint8_t gpioToClkCon [] =$/;"	v	file:
+gpioToClkDiv	wiringPi/wiringPi.c	/^static uint8_t gpioToClkDiv [] =$/;"	v	file:
+gpioToEDS	wiringPi/wiringPi.c	/^static uint8_t gpioToEDS [] =$/;"	v	file:
+gpioToFEN	wiringPi/wiringPi.c	/^static uint8_t gpioToFEN [] =$/;"	v	file:
+gpioToGPCLR	wiringPi/wiringPi.c	/^static uint8_t gpioToGPCLR [] =$/;"	v	file:
+gpioToGPFSEL	wiringPi/wiringPi.c	/^static uint8_t gpioToGPFSEL [] =$/;"	v	file:
+gpioToGPFSEL_CB	wiringPi/wiringPi.c	/^unsigned int  gpioToGPFSEL_CB [] =$/;"	v
+gpioToGPSET	wiringPi/wiringPi.c	/^static uint8_t gpioToGPSET [] =$/;"	v	file:
+gpioToPUDCLK	wiringPi/wiringPi.c	/^static uint8_t gpioToPUDCLK [] =$/;"	v	file:
+gpioToREN	wiringPi/wiringPi.c	/^static uint8_t gpioToREN [] =$/;"	v	file:
+gpioToShift	wiringPi/wiringPi.c	/^static uint8_t gpioToShift [] =$/;"	v	file:
+gpioToShift_CB	wiringPi/wiringPi.c	/^unsigned int  gpioToShift_CB [] =$/;"	v
+gpio_to_phy	wiringPi/wiringPi.c	/^int gpio_to_phy(int pin)$/;"	f
+i2c_smbus_access	wiringPi/wiringPiI2C.c	/^static inline int i2c_smbus_access (int fd, char rw, uint8_t command, int size, union i2c_smbus_data *data)$/;"	f	file:
+i2c_smbus_data	wiringPi/wiringPiI2C.c	/^union i2c_smbus_data$/;"	u	file:
+i2c_smbus_ioctl_data	wiringPi/wiringPiI2C.c	/^struct i2c_smbus_ioctl_data$/;"	s	file:
+initialiseEpoch	wiringPi/wiringPi.c	/^static void initialiseEpoch (void)$/;"	f	file:
+interruptHandler	wiringPi/wiringPi.c	/^static void *interruptHandler (void *arg)$/;"	f	file:
+isrFunctions	wiringPi/wiringPi.c	/^static void (*isrFunctions [64])(void) ;$/;"	v	file:
+joysticks	wiringPi/piNes.c	/^static int joysticks = 0 ;$/;"	v	file:
+lPin	wiringPi/piNes.c	/^  unsigned int cPin, dPin, lPin ;$/;"	m	struct:nesPinsStruct	file:
+lcdClear	wiringPi/lcd.c	/^void lcdClear (int fd)$/;"	f
+lcdDataStruct	wiringPi/lcd.c	/^struct lcdDataStruct$/;"	s	file:
+lcdHome	wiringPi/lcd.c	/^void lcdHome (int fd)$/;"	f
+lcdInit	wiringPi/lcd.c	/^int lcdInit (int rows, int cols, int bits, int rs, int strb,$/;"	f
+lcdPosition	wiringPi/lcd.c	/^void lcdPosition (int fd, int x, int y)$/;"	f
+lcdPrintf	wiringPi/lcd.c	/^void lcdPrintf (int fd, char *message, ...)$/;"	f
+lcdPutchar	wiringPi/lcd.c	/^void lcdPutchar (int fd, uint8_t data)$/;"	f
+lcdPuts	wiringPi/lcd.c	/^void lcdPuts (int fd, char *string)$/;"	f
+lcdSendCommand	wiringPi/lcd.c	/^void lcdSendCommand (int fd, uint8_t command)$/;"	f
+lcds	wiringPi/lcd.c	/^struct lcdDataStruct *lcds [MAX_LCDS] ;$/;"	v	typeref:struct:lcdDataStruct
+ledMap	examples/pwm.c	/^int ledMap [NUM_LEDS] = { 0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13 } ;$/;"	v
+main	examples/blink.c	/^int main (void)$/;"	f
+main	examples/delayTest.c	/^int main()$/;"	f
+main	examples/ds1302.c	/^int main (int argc, char *argv [])$/;"	f
+main	examples/gertboard.c	/^int main (void)$/;"	f
+main	examples/isr-osc.c	/^int main (void)$/;"	f
+main	examples/isr.c	/^int main (void)$/;"	f
+main	examples/lcd.c	/^int main (void)$/;"	f
+main	examples/nes.c	/^int main ()$/;"	f
+main	examples/okLed.c	/^int main ()$/;"	f
+main	examples/piface.c	/^int main (void)$/;"	f
+main	examples/pwm.c	/^int main ()$/;"	f
+main	examples/serialRead.c	/^int main ()$/;"	f
+main	examples/serialTest.c	/^int main ()$/;"	f
+main	examples/servo.c	/^int main ()$/;"	f
+main	examples/speed.c	/^int main (void)$/;"	f
+main	examples/test1.c	/^int main (void)$/;"	f
+main	examples/test2.c	/^int main (void)$/;"	f
+main	examples/tone.c	/^int main ()$/;"	f
+main	examples/wfi.c	/^int main (void)$/;"	f
+main	gpio/gpio.c	/^int main (int argc, char *argv [])$/;"	f
+marks	wiringPi/softPwm.c	/^static int marks [MAX_PINS] ;$/;"	v	file:
+masks	examples/ds1302.c	/^static unsigned int masks [] = { 0x7F, 0x7F, 0x3F, 0x3F, 0x1F, 0x07, 0xFF } ;$/;"	v	file:
+mcp23008Setup	wiringPi/mcp23008.c	/^int mcp23008Setup (int pinBase, int i2cAddress)$/;"	f
+mcp23017Setup	wiringPi/mcp23017.c	/^int mcp23017Setup (int pinBase, int i2cAddress)$/;"	f
+mcp23s08Setup	wiringPi/mcp23s08.c	/^int mcp23s08Setup (int pinBase, int spiPort, int devId)$/;"	f
+mcp23s17Setup	wiringPi/mcp23s17.c	/^int mcp23s17Setup (int pinBase, int spiPort, int devId)$/;"	f
+micros	wiringPi/wiringPi.c	/^unsigned int micros (void)$/;"	f
+millis	wiringPi/wiringPi.c	/^unsigned int millis (void)$/;"	f
+moduleFunctionStruct	gpio/gpio.c	/^struct moduleFunctionStruct$/;"	s	file:
+moduleFunctions	gpio/gpio.c	/^struct moduleFunctionStruct moduleFunctions [] = $/;"	v	typeref:struct:moduleFunctionStruct
+moduleLoaded	gpio/gpio.c	/^static int moduleLoaded (char *modName)$/;"	f	file:
+myDigitalRead	wiringPi/mcp23008.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	file:
+myDigitalRead	wiringPi/mcp23017.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	file:
+myDigitalRead	wiringPi/mcp23s08.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	file:
+myDigitalRead	wiringPi/mcp23s17.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	file:
+myDigitalWrite	wiringPi/mcp23008.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	file:
+myDigitalWrite	wiringPi/mcp23017.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	file:
+myDigitalWrite	wiringPi/mcp23s08.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	file:
+myDigitalWrite	wiringPi/mcp23s17.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	file:
+myDigitalWrite	wiringPi/sr595.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	file:
+myInterrupt	examples/isr-osc.c	/^void myInterrupt (void)$/;"	f
+myInterrupt	examples/isr.c	/^void myInterrupt (void)$/;"	f
+myPinMode	wiringPi/mcp23008.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPinMode	wiringPi/mcp23017.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPinMode	wiringPi/mcp23s08.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPinMode	wiringPi/mcp23s17.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPullUpDnControl	wiringPi/mcp23008.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPullUpDnControl	wiringPi/mcp23017.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPullUpDnControl	wiringPi/mcp23s08.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+myPullUpDnControl	wiringPi/mcp23s17.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	file:
+name	gpio/gpio.c	/^  const char *name ;$/;"	m	struct:moduleFunctionStruct	file:
+nesPins	wiringPi/piNes.c	/^static struct nesPinsStruct nesPins [MAX_NES_JOYSTICKS] ;$/;"	v	typeref:struct:nesPinsStruct	file:
+nesPinsStruct	wiringPi/piNes.c	/^struct nesPinsStruct$/;"	s	file:
+newPin	wiringPi/softPwm.c	/^int newPin = -1 ;$/;"	v
+newPin	wiringPi/softTone.c	/^static int newPin = -1 ;$/;"	v	file:
+next	wiringPi/wiringPi.h	/^  struct wiringPiNodeStruct *next ;$/;"	m	struct:wiringPiNodeStruct	typeref:struct:wiringPiNodeStruct::wiringPiNodeStruct
+outputs	examples/piface.c	/^int outputs [4] = { 0,0,0,0 } ;$/;"	v
+pads	wiringPi/wiringPi.c	/^static volatile uint32_t *pads ;$/;"	v	file:
+physPinToGpio	wiringPi/wiringPi.c	/^int physPinToGpio (int physPin)$/;"	f
+physToGpio	wiringPi/wiringPi.c	/^static int *physToGpio ;$/;"	v	file:
+physToGpio_CB	wiringPi/wiringPi.c	/^static int physToGpio_CB[145] =$/;"	v	file:
+physToGpio_CB_bak	wiringPi/wiringPi.c	/^static int physToGpio_CB_bak[97] =$/;"	v	file:
+piBoardRev	wiringPi/wiringPi.c	/^int piBoardRev (void)$/;"	f
+piBoardRevOops	wiringPi/wiringPi.c	/^static void piBoardRevOops (char *why)$/;"	f	file:
+piFaceSetup	wiringPi/piFace.c	/^int piFaceSetup (int pinBase)$/;"	f
+piHiPri	wiringPi/piHiPri.c	/^int piHiPri (int pri)$/;"	f
+piLock	wiringPi/piThread.c	/^void piLock (int key)$/;"	f
+piMutexes	wiringPi/piThread.c	/^static pthread_mutex_t piMutexes [4] ;$/;"	v	file:
+piThreadCreate	wiringPi/piThread.c	/^int piThreadCreate (void *(*fn)(void *))$/;"	f
+piUnlock	wiringPi/piThread.c	/^void piUnlock (int key)$/;"	f
+pinBase	wiringPi/wiringPi.h	/^  int     pinBase ;$/;"	m	struct:wiringPiNodeStruct
+pinEnableED01Pi	wiringPi/wiringPi.c	/^void pinEnableED01Pi (int pin)$/;"	f
+pinMap	wiringPi/softServo.c	/^static int pinMap     [MAX_SERVOS] ;	\/\/ Keep track of our pins$/;"	v	file:
+pinMax	wiringPi/wiringPi.h	/^  int     pinMax ;$/;"	m	struct:wiringPiNodeStruct
+pinMode	wiringPi/wiringPi.c	/^int pinMode (int pin, int mode)$/;"	f
+pinMode	wiringPi/wiringPi.h	/^  int   (*pinMode)         (struct wiringPiNodeStruct *node, int pin, int mode) ;$/;"	m	struct:wiringPiNodeStruct
+pinModeDummy	wiringPi/wiringPi.c	/^static void pinModeDummy             (struct wiringPiNodeStruct *node, int pin, int mode)  { return ; }$/;"	f	file:
+pinNames	gpio/gpio.c	/^static char *pinNames [] =$/;"	v	file:
+pinToGpio	wiringPi/wiringPi.c	/^static int *pinToGpio ;$/;"	v	file:
+pullUpDnControl	wiringPi/wiringPi.c	/^void pullUpDnControl (int pin, int pud)$/;"	f
+pullUpDnControl	wiringPi/wiringPi.h	/^  void   (*pullUpDnControl) (struct wiringPiNodeStruct *node, int pin, int mode) ;$/;"	m	struct:wiringPiNodeStruct
+pullUpDnControlDummy	wiringPi/wiringPi.c	/^static void pullUpDnControlDummy     (struct wiringPiNodeStruct *node, int pin, int pud)   { return ; }$/;"	f	file:
+pullUpDnControlPiFace	wiringPi/piFace.c	/^void pullUpDnControlPiFace (struct wiringPiNodeStruct *node, int pin, int pud)$/;"	f
+pulseWidth	wiringPi/softServo.c	/^static int pulseWidth [MAX_SERVOS] ;	\/\/ microseconds$/;"	v	file:
+put4Command	wiringPi/lcd.c	/^static void put4Command (struct lcdDataStruct *lcd, uint8_t command)$/;"	f	file:
+putCommand	wiringPi/lcd.c	/^static void putCommand (struct lcdDataStruct *lcd, uint8_t command)$/;"	f	file:
+pwm	wiringPi/wiringPi.c	/^static volatile uint32_t *pwm ;$/;"	v	file:
+pwmSetClock	wiringPi/wiringPi.c	/^void pwmSetClock (int divisor)$/;"	f
+pwmSetMode	wiringPi/wiringPi.c	/^void pwmSetMode (int mode)$/;"	f
+pwmSetRange	wiringPi/wiringPi.c	/^void pwmSetRange (unsigned int range)$/;"	f
+pwmWrite	wiringPi/wiringPi.c	/^void pwmWrite (int pin, int value)$/;"	f
+pwmWrite	wiringPi/wiringPi.h	/^  void   (*pwmWrite)        (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct
+pwmWriteDummy	wiringPi/wiringPi.c	/^static void pwmWriteDummy            (struct wiringPiNodeStruct *node, int pin, int value) { return ; }$/;"	f	file:
+ramTest	examples/ds1302.c	/^static int ramTest (void)$/;"	f	file:
+ramTestValues	examples/ds1302.c	/^static int ramTestValues [] =$/;"	v	file:
+range	wiringPi/softPwm.c	/^static int range [MAX_PINS] ;$/;"	v	file:
+readByte	wiringPi/mcp23s08.c	/^static uint8_t readByte (uint8_t spiPort, uint8_t devId, uint8_t reg)$/;"	f	file:
+readByte	wiringPi/mcp23s17.c	/^static uint8_t readByte (uint8_t spiPort, uint8_t devId, uint8_t reg)$/;"	f	file:
+readByte	wiringPi/piFace.c	/^static uint8_t readByte (uint8_t reg)$/;"	f	file:
+readNesJoystick	wiringPi/piNes.c	/^unsigned int readNesJoystick (int joystick)$/;"	f
+read_write	wiringPi/wiringPiI2C.c	/^  char read_write ;$/;"	m	struct:i2c_smbus_ioctl_data	file:
+readl	wiringPi/wiringPi.c	/^unsigned int readl(uint32_t addr)$/;"	f
+rows	wiringPi/lcd.c	/^  uint8_t bits, rows, cols ;$/;"	m	struct:lcdDataStruct	file:
+rsPin	wiringPi/lcd.c	/^  uint8_t rsPin, strbPin ;$/;"	m	struct:lcdDataStruct	file:
+sPin	wiringPi/ds1302.c	/^static int dPin, cPin, sPin ;$/;"	v	file:
+scale	examples/tone.c	/^int scale [8] = { 262, 294, 330, 349, 392, 440, 494, 525 } ;$/;"	v
+scanButton	examples/piface.c	/^void scanButton (int button)$/;"	f
+sendDataCmd	wiringPi/lcd.c	/^static void sendDataCmd (struct lcdDataStruct *lcd, uint8_t data)$/;"	f	file:
+serialPrintf	wiringPi/wiringSerial.c	/^void serialPrintf (int fd, char *message, ...)$/;"	f
+setDSclock	examples/ds1302.c	/^static int setDSclock (void)$/;"	f	file:
+setLinuxClock	examples/ds1302.c	/^static int setLinuxClock (void)$/;"	f	file:
+setPadDrive	wiringPi/wiringPi.c	/^void setPadDrive (int group, int value)$/;"	f
+setup	examples/wfi.c	/^void setup (void)$/;"	f
+setupNesJoystick	wiringPi/piNes.c	/^int setupNesJoystick (int dPin, int cPin, int lPin)$/;"	f
+shiftIn	wiringPi/wiringShift.c	/^uint8_t shiftIn (uint8_t dPin, uint8_t cPin, uint8_t order)$/;"	f
+shiftOut	wiringPi/wiringShift.c	/^void shiftOut (uint8_t dPin, uint8_t cPin, uint8_t order, uint8_t val)$/;"	f
+size	wiringPi/wiringPiI2C.c	/^  int size ;$/;"	m	struct:i2c_smbus_ioctl_data	file:
+softPwmCreate	wiringPi/softPwm.c	/^int softPwmCreate (int pin, int initialValue, int pwmRange)$/;"	f
+softPwmWrite	wiringPi/softPwm.c	/^void softPwmWrite (int pin, int value)$/;"	f
+softServoSetup	wiringPi/softServo.c	/^int softServoSetup (int p0, int p1, int p2, int p3, int p4, int p5, int p6, int p7)$/;"	f
+softServoWrite	wiringPi/softServo.c	/^void softServoWrite (int servoPin, int value)$/;"	f
+softToneCreate	wiringPi/softTone.c	/^int softToneCreate (int pin)$/;"	f
+softToneWrite	wiringPi/softTone.c	/^void softToneWrite (int pin, int freq)$/;"	f
+spiBPW	wiringPi/wiringPiSPI.c	/^static uint8_t     spiBPW    = 8 ;$/;"	v	file:
+spiDelay	wiringPi/wiringPiSPI.c	/^static uint16_t    spiDelay  = 0;$/;"	v	file:
+spiDev0	wiringPi/wiringPiSPI.c	/^static char       *spiDev0 = "\/dev\/spidev0.0" ;$/;"	v	file:
+spiDev1	wiringPi/wiringPiSPI.c	/^static char       *spiDev1 = "\/dev\/spidev0.1" ;$/;"	v	file:
+spiFds	wiringPi/wiringPiSPI.c	/^static int         spiFds [2] ;$/;"	v	file:
+spiMode	wiringPi/wiringPiSPI.c	/^static uint8_t     spiMode   = 0 ;$/;"	v	file:
+spiSpeeds	wiringPi/wiringPiSPI.c	/^static uint32_t    spiSpeeds [2] ;$/;"	v	file:
+sr595Setup	wiringPi/sr595.c	/^int sr595Setup (int pinBase, int numPins, int dataPin, int clockPin, int latchPin) $/;"	f
+strbPin	wiringPi/lcd.c	/^  uint8_t rsPin, strbPin ;$/;"	m	struct:lcdDataStruct	file:
+strobe	wiringPi/lcd.c	/^static void strobe (struct lcdDataStruct *lcd)$/;"	f	file:
+sunxi_digitalRead	wiringPi/wiringPi.c	/^int sunxi_digitalRead(int pin)$/;"	f
+sunxi_digitalWrite	wiringPi/wiringPi.c	/^int sunxi_digitalWrite(int pin, int value)$/;"	f
+sunxi_pullUpDnControl	wiringPi/wiringPi.c	/^void sunxi_pullUpDnControl (int pin, int pud)$/;"	f
+sunxi_pwm_get_period	wiringPi/wiringPi.c	/^uint32_t sunxi_pwm_get_period(void)$/;"	f
+sunxi_pwm_set_act	wiringPi/wiringPi.c	/^void sunxi_pwm_set_act(int pin, int act_cys)$/;"	f
+sunxi_pwm_set_clk	wiringPi/wiringPi.c	/^void sunxi_pwm_set_clk(int clk)$/;"	f
+sunxi_pwm_set_enable	wiringPi/wiringPi.c	/^void sunxi_pwm_set_enable(int en)$/;"	f
+sunxi_pwm_set_mode	wiringPi/wiringPi.c	/^void sunxi_pwm_set_mode(int mode)$/;"	f
+sunxi_pwm_set_period	wiringPi/wiringPi.c	/^void sunxi_pwm_set_period(int period_cys)$/;"	f
+sunxi_set_gpio_mode	wiringPi/wiringPi.c	/^void sunxi_set_gpio_mode(int pin,int mode)$/;"	f
+sysFds	wiringPi/wiringPi.c	/^static int sysFds [64] ;$/;"	v	file:
+timer	wiringPi/wiringPi.c	/^static volatile uint32_t *timer ;$/;"	v	file:
+timerIrqRaw	wiringPi/wiringPi.c	/^static volatile uint32_t *timerIrqRaw ;$/;"	v	file:
+usage	gpio/gpio.c	/^char *usage = "Usage: gpio -v\\n"$/;"	v
+values	examples/pwm.c	/^int values [NUM_LEDS] = { 0, 17, 32, 50, 67, 85, 100, 85, 67, 50, 32, 17 } ;$/;"	v
+waitForInterrupt	wiringPi/wiringPi.c	/^int waitForInterrupt (int pin, int mS)$/;"	f
+wiringPiCodes	wiringPi/wiringPi.c	/^int wiringPiCodes = FALSE ;$/;"	v
+wiringPiDebug	wiringPi/wiringPi.c	/^int wiringPiDebug = FALSE ;$/;"	v
+wiringPiFailure	wiringPi/wiringPi.c	/^int wiringPiFailure (char *message, ...)$/;"	f
+wiringPiFindNode	wiringPi/wiringPi.c	/^static struct wiringPiNodeStruct *wiringPiFindNode (int pin)$/;"	f	file:
+wiringPiI2CRead	wiringPi/wiringPiI2C.c	/^int wiringPiI2CRead (int fd)$/;"	f
+wiringPiI2CReadReg16	wiringPi/wiringPiI2C.c	/^int wiringPiI2CReadReg16 (int fd, int reg)$/;"	f
+wiringPiI2CReadReg8	wiringPi/wiringPiI2C.c	/^int wiringPiI2CReadReg8 (int fd, int reg)$/;"	f
+wiringPiI2CSetup	wiringPi/wiringPiI2C.c	/^int wiringPiI2CSetup (int devId)$/;"	f
+wiringPiI2CSetupInterface	wiringPi/wiringPiI2C.c	/^int wiringPiI2CSetupInterface (char *device, int devId)$/;"	f
+wiringPiI2CWrite	wiringPi/wiringPiI2C.c	/^int wiringPiI2CWrite (int fd, int data)$/;"	f
+wiringPiI2CWriteReg16	wiringPi/wiringPiI2C.c	/^int wiringPiI2CWriteReg16 (int fd, int reg, int value)$/;"	f
+wiringPiI2CWriteReg8	wiringPi/wiringPiI2C.c	/^int wiringPiI2CWriteReg8 (int fd, int reg, int value)$/;"	f
+wiringPiISR	wiringPi/wiringPi.c	/^int wiringPiISR (int pin, int mode, void (*function)(void))$/;"	f
+wiringPiMode	wiringPi/wiringPi.c	/^static int wiringPiMode = WPI_MODE_UNINITIALISED ;$/;"	v	file:
+wiringPiNewNode	wiringPi/wiringPi.c	/^struct wiringPiNodeStruct *wiringPiNewNode (int pinBase, int numPins)$/;"	f
+wiringPiNodeStruct	wiringPi/wiringPi.h	/^struct wiringPiNodeStruct$/;"	s
+wiringPiNodes	wiringPi/wiringPi.c	/^static struct wiringPiNodeStruct *wiringPiNodes = NULL ;$/;"	v	typeref:struct:wiringPiNodeStruct	file:
+wiringPiSPIDataRW	wiringPi/wiringPiSPI.c	/^int wiringPiSPIDataRW (int channel, unsigned char *data, int len)$/;"	f
+wiringPiSPIGetFd	wiringPi/wiringPiSPI.c	/^int wiringPiSPIGetFd (int channel)$/;"	f
+wiringPiSPISetup	wiringPi/wiringPiSPI.c	/^int wiringPiSPISetup (int channel, int speed)$/;"	f
+wiringPiSetup	wiringPi/wiringPi.c	/^int wiringPiSetup (void)$/;"	f
+wiringPiSetupGpio	wiringPi/wiringPi.c	/^int wiringPiSetupGpio (void)$/;"	f
+wiringPiSetupPhys	wiringPi/wiringPi.c	/^int wiringPiSetupPhys (void)$/;"	f
+wiringPiSetupSys	wiringPi/wiringPi.c	/^int wiringPiSetupSys (void)$/;"	f
+wiringPinMode	wiringPi/wiringPi.c	/^static int wiringPinMode = WPI_MODE_UNINITIALISED ;$/;"	v	file:
+word	wiringPi/wiringPiI2C.c	/^  uint16_t word ;$/;"	m	union:i2c_smbus_data	file:
+wpMode	gpio/gpio.c	/^static int wpMode ;$/;"	v	file:
+wpiPinToGpio	wiringPi/wiringPi.c	/^int wpiPinToGpio (int wpiPin)$/;"	f
+wpiToPhys	gpio/gpio.c	/^static int wpiToPhys [64] =$/;"	v	file:
+writeByte	wiringPi/mcp23s08.c	/^static void writeByte (uint8_t spiPort, uint8_t devId, uint8_t reg, uint8_t data)$/;"	f	file:
+writeByte	wiringPi/mcp23s17.c	/^static void writeByte (uint8_t spiPort, uint8_t devId, uint8_t reg, uint8_t data)$/;"	f	file:
+writeByte	wiringPi/piFace.c	/^static void writeByte (uint8_t reg, uint8_t data)$/;"	f	file:
+writel	wiringPi/wiringPi.c	/^void writel(uint32_t val, uint32_t addr)$/;"	f

@@ -1,0 +1,17 @@
+#include <wiringPi.h>
+#include <wiringSerial.h>
+#include <wiringShift.h>
+#include <gertboard.h>
+#include <piFace.h>
+#include <piNes.h>
+#include <ds1302.h>
+#include <softPwm.h>
+#include <softTone.h>
+#include <lcd.h>
+#include <wiringPiSPI.h>
+#include <wiringPiI2C.h>
+#include <mcp23008.h>
+#include <mcp23017.h>
+#include <mcp23s08.h>
+#include <mcp23s17.h>
+#include <sr595.h>
